@@ -1,0 +1,54 @@
+body{
+  background-color: #f2edd7;
+  text-align: center;
+}
+
+h1{
+  font-size: 10rem;
+  font-family: Redressed;
+  color: #161d6f;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h3{
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+img{
+  width: 50%;
+  margin: 1rem;
+}
+
+table{
+  margin: 0 auto;
+}
+
+td{
+  text-align: center;
+}
+
+.dice1{
+  margin-right: 4rem;
+}
+
+.dice2{
+  margin-left: 4rem;
+}
+
+.player1, .player2{
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 720px) {
+  h1{
+    font-size: 5rem;
+  }
+
+  h3{
+    font-size: 1rem;
+  }
+}
